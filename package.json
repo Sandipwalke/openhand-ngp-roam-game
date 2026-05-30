@@ -1,0 +1,37 @@
+{
+  "name": "openhand-ngp-roam-game",
+  "version": "1.0.0",
+  "description": "Yavatmal 3D Open World Game",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server/index.js",
+    "dev:all": "concurrently \"npm run dev\" \"npm run server\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.6.1",
+    "@tailwindcss/postcss": "^4.3.0",
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
+    "@types/three": "^0.184.1",
+    "@vitejs/plugin-react": "^6.0.2",
+    "autoprefixer": "^10.5.0",
+    "express": "^5.2.1",
+    "postcss": "^8.5.15",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "socket.io": "^4.8.3",
+    "socket.io-client": "^4.8.3",
+    "tailwindcss": "^3.4.19",
+    "three": "^0.184.0",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.14",
+    "zustand": "^5.0.14"
+  }
+}
